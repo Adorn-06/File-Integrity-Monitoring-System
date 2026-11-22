@@ -1,0 +1,14 @@
+NEW FILE DETECTION TEST
+
+This is a newly created text file for testing the File Integrity Monitoring System.
+
+Purpose:
+To verify whether the monitoring system can identify files that were not included in the original baseline.
+
+File Information:
+- File Name: new file.txt
+- File Type: Text Document
+- Test Category: New File Detection
+
+Expected Result:
+The system should detect this file as a new file and generate an integrity alert because its SHA-256 hash is not present in the stored baseline.
