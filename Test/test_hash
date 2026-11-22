@@ -1,0 +1,10 @@
+
+from file_hasher import calculate_file_hash
+
+file_path = "monitored_files/test.txt"
+
+result = calculate_file_hash(file_path)
+
+if result:
+    print("File:", file_path)
+    print("SHA-256:", result)
